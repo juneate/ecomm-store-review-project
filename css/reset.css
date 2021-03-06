@@ -11,22 +11,19 @@ body {
 
 
 /* Preview each of these suggested resets before beginning your project styling */
-/*
 img {
 	max-width: 100%;
 	height: auto;
 	vertical-align: bottom;
-} */
-/*
+}
 ul, ol, dl {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-} */
-/*
+}
 li > ul, li > ol {
 	padding-left: 2.5em;
-} */
+}
 /*
 input, button {
 	margin: 0;
