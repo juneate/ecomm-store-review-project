@@ -4,6 +4,7 @@
 html {
 	box-sizing: border-box;
 }
+
 body {
 	margin: 0;
 }
@@ -15,7 +16,7 @@ img {
 	max-width: 100%;
 	height: auto;
 	vertical-align: bottom;
-} 
+} */
 /*
 ul, ol, dl {
 	list-style: none;
@@ -45,7 +46,7 @@ legend {
 } */
 
 
-/* These will make "User agent stylesheet" values (Chrome) available when needed, using classes */
+/* These will make "User agent stylesheet" values (Chrome) available when needed, using classes 
 ul.ul {
 	list-style-type: disc;
 }
@@ -82,3 +83,4 @@ legend.legend {
 	border-color: initial;
 	border-image: initial;
 }
+*/
