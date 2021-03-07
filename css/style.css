@@ -40,6 +40,10 @@ body{
   margin: 0 8px;
 }
 
+.copyright{
+  text-align: right;
+}
+
 .btn {
     background-color: DodgerBlue;
     border: none;
