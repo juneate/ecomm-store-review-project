@@ -1,5 +1,9 @@
 /* NEWNEWNEWNEWNEW-Note therer a few "reset" styles given in reset.css. Review those before you begin */
-
+:root{
+  --color-primary: rgb(19, 34, 255);
+  --color-secondary: rgb(204, 0, 119);
+  --color-tertiary: rgb(236, 236, 236);
+}
 .btn {
     background-color: DodgerBlue;
     border: none;
