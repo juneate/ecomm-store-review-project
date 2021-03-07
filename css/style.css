@@ -31,6 +31,15 @@ body{
   margin: 0 8px;
 }
 
+.social, .legal{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social>li, .legal>li{
+  margin: 0 8px;
+}
+
 .btn {
     background-color: DodgerBlue;
     border: none;
