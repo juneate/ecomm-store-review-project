@@ -1,4 +1,4 @@
-/* NEWNEWNEWNEWNEW-Note therer a few "reset" styles given in reset.css. Review those before you begin */
+
 :root{
   --color-primary: rgb(19, 34, 255);
   --color-secondary: rgb(204, 0, 119);
@@ -6,6 +6,7 @@
   --color-text: #333333;
   --color-para: #777777;
   --pad-and-gap: 15px;
+
 }
 
 body{
