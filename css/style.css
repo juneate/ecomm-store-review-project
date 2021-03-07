@@ -18,6 +18,10 @@ body{
   padding: var(--pad-and-gap) 0;
 }
 
+.your-products{
+  display: flex;
+}
+
 .btn {
     background-color: DodgerBlue;
     border: none;
