@@ -4,6 +4,12 @@
   --color-secondary: rgb(204, 0, 119);
   --color-tertiary: rgb(236, 236, 236);
 }
+
+body{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .btn {
     background-color: DodgerBlue;
     border: none;
