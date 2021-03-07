@@ -22,6 +22,15 @@ body{
   display: flex;
 }
 
+.pages{
+  display: flex;
+  justify-content: center;
+}
+
+.pages>li{
+  margin: 0 8px;
+}
+
 .btn {
     background-color: DodgerBlue;
     border: none;
