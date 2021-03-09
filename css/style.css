@@ -83,3 +83,27 @@ body{
     grid-gap: var(--pad-and-gap);
   }
 }
+
+@media only screen and (min-width: 70em){
+  .page-header{
+    grid-template-columns: auto 1fr auto auto auto;
+  }
+
+  .nav-toggle{
+    display:none;
+  }
+
+  .menu > li {
+    display:flex;
+  }
+
+  .filter-options{
+    display:flex;
+    justify-content: space-between;
+  }
+
+  .results{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
