@@ -79,7 +79,6 @@ body{
 @media only screen and (min-width: 40em){
   .products{
     display: grid;
-    grid-template-columns: 15em auto;
     grid-gap: var(--pad-and-gap);
   }
 }
@@ -104,6 +103,17 @@ body{
 
   .results{
     display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: var(--pad-and-gap);
+  }
+}
+
+@media only screen and (min-width: 90em){
+  .filter-options{
+    justify-content: flex-start;
+  }
+
+  .results{
     grid-template-columns: 1fr 1fr;
   }
 }
