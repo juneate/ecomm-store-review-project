@@ -19,6 +19,24 @@ body{
   padding: var(--pad-and-gap) 0;
 }
 
+.page-header{
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  grid-template-rows: auto auto;
+}
+
+.nav-toggle{
+  order: 2;
+}
+
+.search{
+  order:3;
+}
+
+.filter-list{
+  display: flex;
+}
+
 .your-products{
   display: flex;
 }
@@ -57,3 +75,10 @@ body{
   .btn:hover {
     background-color: RoyalBlue;
   }
+
+/* @media only screen and (min-width: 40em){
+  .products{
+    display: grid;
+    grid-template-columns: 15em ;
+  }
+} */
