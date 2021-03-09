@@ -101,7 +101,7 @@ body{
     justify-content: space-between;
   }
 
-  .results{
+  .results > div{
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: var(--pad-and-gap);
@@ -113,7 +113,7 @@ body{
     justify-content: flex-start;
   }
 
-  .results{
+  .results > div{
     grid-template-columns: 1fr 1fr;
   }
 }
